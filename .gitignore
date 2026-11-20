@@ -1,0 +1,92 @@
+
+# ==========================================
+# Python
+# ==========================================
+
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Java - Maven & Gradle
+# ==========================================
+
+target/
+.gradle/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================================
+# Angular / Node.js
+# ==========================================
+
+node_modules/
+dist/
+.angular/
+.npm/
+*.tsbuildinfo
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==========================================
+# IDE Metadata
+# ==========================================
+
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+.nbproject/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Coverage & Test Reports
+# ==========================================
+
+coverage/
+test-results/
